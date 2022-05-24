@@ -1,0 +1,69 @@
+html   
+{   
+background-color: #d0cec9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedcd9', endColorstr='#f7f7f6');   
+background-color: -webkit-gradient(lineal, arriba a la izquierda, abajo a la izquierda, color-stop(0, #dedcd9),
+    color-stop(0.1, #f7f7f6), color-stop(1.0, #f7f7f6));   
+background: -moz-linear-gradient (arriba, #dedcd9 0px, #f7f7f6 400px, #f7f7f6 100%);
+}   
+body
+{   
+background-color: #a3be48;
+}  
+blockquote
+ {   
+margin: 0 0 22px 0;
+background: rgba(0,0,0,.05);
+border-left: 4px rgba sólido (0,0,0,.1);
+padding: 22px;
+   
+ }  
+ 
+ #shadow  
+{  
+position:static;
+top: -10px;
+left: 0;
+height: 100% ;
+width: 10px;
+}  
+#bars  
+{  
+height: 100% ;
+width: 42px;
+margin-top: -20px;
+}  
+#bars div   
+{  
+position:sticky;
+float: left;
+height: 54px;
+width: 100% ;
+margin: 55px;
+}  
+#bars div.n  
+{  
+background-color: #2e78bc; }
+#bares div.m
+{  
+background-color: #a3be48;
+      
+}  
+    #bars div.c   
+    {  
+background: #9a9a9a; margin: 0;
+          
+    }  
+    h1, h2, h3, h4, h5, h6
+{  
+font-family: 'BergamoProRegular',
+georgia
+    serif;  
+line-height: 22px;
+margin: 22px;
+}  
+h1, h1 a   
+{  
+font-size: 33px;
+    color: #333230;   
+}  

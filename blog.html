@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./blog.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>  
+        <ul>  
+            <!-- elementos de navegación -->  
+        </ul>  
+    </nav>  
+<div id="blog" class="hidden"> 
+    </div>  
+    <!-- blog -->  
+    <artículo>  
+        <encabezado>  
+            <h1>  
+                <a href="">Post Title</a>  
+            </h1>  
+            <div class="postmeta">  
+<time datetime="">31 de diciembre de 1969</time>
+<a href="y#comments" class="comments">0 Comentarios</a>
+            </div>  
+        </encabezado>  
+        <!-- contenido -->  
+        <aside class="comments" id="comments">  
+            <!-- comentarios -->  
+        </aparte>  
+        <!-- comentarios -->  
+    </artículo>  
+</div>  
+<!-- scripts --> 
+<script>
+    var bars = '<div id="bars"><div class="n"></div><div class="n"></div><div class="m"></div><div class="m"></div><div class="m"></div><div class="c"></div></div>', $('#container').prepend(bars).css({paddingTop: 0}); $('body').prepend('<div id="shadow" />')
+$('#blog').bind('toggle', function()   
+{  
+var $blog = $(esto);
+    if ($blog.is(':visible')) $blog.trigger('hide');  
+    else $blog.trigger('show')  
+})  
+.bind('mostrar', función()
+    ,{  
+    $(this){.slideDown('show');  
+}  
+.bind('ocultar', función()
+    ,{  
+$(this){.slideUp('ocultar'),
+}  
+,$('#blogbutton').removeAttr('href').  
+click(function()   
+{  
+    $('#blog').trigger('toggle');  
+}
+</script>
+</body>
+</html>

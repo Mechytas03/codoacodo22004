@@ -1,0 +1,34 @@
+img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    image-rendering: auto;
+    border-image: auto;
+
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    border: 5PX rgb(230, 15, 158) solid;
+	background: linear-gradient(rgb(102, 102, 233), rgb(131, 131, 245), rgb(226, 226, 243));
+    
+
+}
+.n{
+    width: 50;
+    height: 50;
+}
+dl{
+    text-align: center;
+    position: relative;
+    
+}
+a{
+ color:navy;
+}
+body{
+    width: 100%;
+    height: 100%;
+}

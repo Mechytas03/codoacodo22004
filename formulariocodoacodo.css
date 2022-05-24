@@ -1,0 +1,45 @@
+
+.uno{
+display: flex;
+flex-direction: row;
+
+}
+.dos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+    }
+.cuatro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+body{
+    padding: 0%;
+    width: auto;
+    height:auto;
+
+}
+body{
+    background: linear-gradient(rgb(192, 206, 231),rgb(233, 239, 241), rgb(242, 242, 245));
+    padding: auto;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-decoration:wavy;
+    
+
+    
+}

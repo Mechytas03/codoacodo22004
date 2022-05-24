@@ -1,0 +1,92 @@
+h3 {
+    color: rgb(4, 4, 56); 
+}
+h5{
+  color: black;
+  text-align: center;
+
+}
+p {
+    color: rgb(2, 2, 10);
+    
+}
+body {
+    background: linear-gradient(rgb(21, 73, 170),rgb(233, 239, 241), rgb(232, 232, 238));
+    
+}
+head {
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+h4 {
+    color: (4, 4, 56);
+}
+
+img{
+    position: fixed;
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
+    border:solid 1px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    filter:opacity(80%);
+  flex-basis: auto;
+  }
+/* centramos el titulo h1 */
+h1 {
+    text-align: center;
+  
+  }
+
+  /* Mostraemos el titulo h2 a la derecha */
+  h2 {
+    text-align: center;
+  }
+  
+  /* mostramos el titulo h3 a la ziquierda */
+  h3 {
+    text-align: center;
+  }
+  
+  h4{
+    text-align: center;
+
+  }
+  /* justificamos el texto del parrafo */
+  p {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    background: linear-gradient(rgb(42, 8, 236),rgb(175, 167, 185), rgb(44, 23, 238));
+
+    border-radius: 25px;
+
+  }
+  p, button{
+    font-family: fantasy;
+    border-color: black;
+    color: rgb(26, 27, 21);
+    
+  }
+  div {
+    color:rgb(13, 13, 14);
+    border: solid 3px rgb(57, 10, 119);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+  }
+.span{ 
+  background-color: firebrick;
+}
+a{
+  display: inline;
+  width: 3000px;
+  border: solid 3px black;
+}

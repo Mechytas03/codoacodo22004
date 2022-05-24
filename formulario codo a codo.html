@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulariocodoacodo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="uno">
+    <div class="nombre">
+        <span class="input-group-text" id="basic-addon1">nombre de pila</span>
+        <br>
+        <input type="text" class="form-control" placeholder="nombre" aria-label="nombre" aria-describedby="basic-addon1">
+      </div>
+      <div class="apellido">
+        <span class="input-group-text" id="basic-addon1">apellido</span>
+        <br>
+        <input type="text" class="form-control" placeholder="apellido" aria-label="apellido" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <div class="dos">
+    <div class="email">
+        <span>nombre de usuario</span>
+        <br>
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="nombre de usuario" aria-label="nombre de usuario" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="mail">
+        <span class="input-group-text" id="basic-addon1">correo electronico (opcional)</span>
+        <br>
+        <input type="email" class="form-control" placeholder="@example.com" aria-label="@example.com" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+
+      <div class="dir">
+        <span class="input-group-text" id="basic-addon1">habla a </span>
+        <br>
+        <input type="text" class="form-control" placeholder="calle falsa  123" aria-label="calle falsa  123" aria-describedby="basic-addon1">
+      </div>
+      <div class="dir2">
+        <span class="input-group-text" id="basic-addon1">direccion 2(opcional)</span>
+        <br>
+        <input type="text" class="form-control" placeholder="apartamento o casa" aria-label="apartamento o casa" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <div class="tres">
+      <div>
+        <span>pais</span>
+        <SELECT class="pais" name = donde >
+            <OPTION>argernina
+            <OPTION>uruguay
+            <OPTION>brazil
+            </SELECT>
+      </div>
+      <div>
+          <span>estado</span>
+        <SELECT class="estado" name = donde >
+            <OPTION>capital
+            <OPTION>provincia
+            <OPTION>estado
+            </SELECT>
+      </div>
+      <div class="cp">
+        <span class="input-group-text" id="basic-addon1">codigo postal</span>
+        <input type="number" class="form-control" placeholder="cp" aria-label="cp" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <div class="cuatro">
+      <div>
+        <INPUT type = checkbox name = archivo value = "Verdadero" > la direccion de envio es la misma que la direccion de factura
+            <br>
+        <INPUT type = checkbox name = archivo value ="Verdadero" > guarde esta informacion para la proxima vez
+      </div>
+      <input type="submit" value="Enviar formulario" />
+      <input type="reset" value="Borrar formulario" />
+      
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+        
+              var height = $(window).height();
+        
+              $('#div2').height(height);
+        });
+        
+        </script>
+            <a href="./index.html">volver</a>
+
+</body>
+</html>
