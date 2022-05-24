@@ -1,0 +1,25 @@
+body{margin: 0;
+  padding: 0;
+  background-color: black;
+}
+#iniciar-calculadora{
+  padding: 0 45px;
+  line-height: 3.5;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background: rgba(76,26,36,1);
+  color: white;
+  font-weight: bold;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+}
+#iniciar-calculadora:hover{
+  cursor: pointer;
+}
+#iniciar-calculadora:active{
+  transform: scale(0.85);
+}
+

@@ -1,0 +1,68 @@
+*{
+    background-color: rgb(92, 161, 221);
+    position: relative;
+    padding: auto;
+    text-align: center;
+}
+h1{
+    color: rgb(40, 25, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+h2{
+    color: rgb(37, 0, 139);
+
+}
+h3{
+    color: rgb(9, 20, 83);
+}
+h5{
+    color: rgb(7, 7, 66);
+}
+li{
+    color: rgb(26, 15, 128);
+    position: relative;
+
+}
+p{
+    color: rgb(44, 7, 80);
+}
+footer{
+    color: gold;
+    
+}
+img{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: solid 2px black;
+    margin-left: auto; 
+
+    margin-right: auto;
+
+
+}
+video{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+
+}
+body{
+    background: -webkit-linear-gradient(left, #48a7cc, #C9DCB9); 
+    background: -o-linear-gradient(right, #48a7cc, #C9DCB9); 
+    background: -moz-linear-gradient(right, #48a7cc, #C9DCB9); 
+    background: linear-gradient(to right, #48a7cc, #C9DCB9); 
+    background-color: #48a7cc; 
+}
+
+.n{
+    text-align: center;
+    position:relative;
+    
+}
+.n2{
+    width: 50px;
+    height: 50px;
+}

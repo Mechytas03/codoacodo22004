@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/tabla_de_multiplicar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar 1 al 100</title>
+</head>
+<header>
+    <div class="menu-hidden">
+        <div class="item">
+            <a href="index.html">volver</a>
+        
+      
+    </div>
+
+
+
+
+</header>
+
+<body>
+    <form>
+        <select id="numero" onchange="Saludar()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+
+        </select>
+    </form>
+    <div id="resultado"></div>
+
+</body>
+<script>
+    function Saludar(){
+        var number1 = parseInt(document.getElementById('numero').value);
+        var multiplicacion='';
+        var i=1;
+
+        while( i<=10){
+          
+           multiplicacion += "<h1>" + i + " * " +number1 + "=" +i*number1 +"</h1>"; 
+            i++
+        }
+        document.getElementById('resultado').innerHTML=multiplicacion;
+    }
+
+
+</script>
+</html>

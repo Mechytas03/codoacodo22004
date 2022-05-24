@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Paso Planetario</title>
+    <LINK href="./pesoenotroplante.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <content id="contenido">
+        <img class="logo" img="./MFS.png">
+        <h1> Tu peso en otro planeta </h1>
+        <p>Tu peso en la Tierra es muy distinto en otros planetas</p>
+        <div id="content"></div>
+        
+            <script>
+                var usuario = prompt("Digita Cual es Tu peso en Kilogramos?");
+                var planeta = parseInt(prompt("Elige tu planeta. \n1 = Mercurio. \n2 = Venus. \n3 = Marte. \n4 = Jupiter. \n5 = Saturno. \n6 = Urano. \n7 = Neptuno.\n8 = Tierra.\n9 = Luna."));
+
+                var peso = parseInt(usuario);
+                var g_tierra = 9.8;
+                var g_mercurio = 2.7;
+                var g_venus = 8.8;
+                var g_marte = 3.7;
+                var g_jupiter = 22.8;
+                var g_saturno = 9;
+                var g_urano = 7.7;
+                var g_neptuno = 11;
+                var g_luna = 1.62;
+
+                var peso_final;
+                var nombre;
+                var imagen_planeta;
+
+
+                if (planeta == 1) {
+                    peso_final = peso * g_mercurio / g_tierra;
+
+                    nombre = "Mercurio";
+
+                    var path = "./mercurio.gif"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+
+                } else if (planeta == 2) {
+                    peso_final = peso * g_venus / g_tierra;
+                    nombre = "Venus";
+                    var path = "./venus.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+
+                } else if (planeta == 3) {
+                    peso_final = peso * g_marte / g_tierra;
+                    nombre = "Marte";
+                    var path = "./marte.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 4) {
+                    peso_final = peso * g_jupiter / g_tierra;
+                    nombre = "Jupiter";
+                    var path = "./jupiter.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 5) {
+                    peso_final = peso * g_saturno / g_tierra;
+                    nombre = "Saturno";
+                    var path = "./saturno0.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 6) {
+                    peso_final = peso * g_urano / g_tierra;
+                    nombre = "Urano";
+                    var path = "./urano.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 7) {
+                    peso_final = peso * g_neptuno / g_tierra;
+                    nombre = "Neptuno";
+                    var path = "./neptuno1.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 8) {
+                    peso_final = peso * g_tierra / g_tierra;
+                    nombre = "Tierra";
+                    var path = "./tierra.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else if (planeta == 9) {
+                    peso_final = peso * g_luna / g_tierra;
+                    nombre = "Luna";
+                    var path = "./luna.png"; //-->Editar la ruta
+                    var img = document.createElement('img');
+                    img.setAttribute("src", path);
+                    img.setAttribute("width", "448");
+                    img.setAttribute("height", "348");
+
+                    document.getElementById("content").appendChild(img);
+                } else {
+                    peso_final = 100000000000;
+                }
+
+
+                peso_final = parseInt(peso_final);
+                document.write("Tu peso en:  " + nombre + " es = <strong> " + peso_final + " kilos. </strong> ");
+            </script>
+        
+    </content>
+    <br>
+    <a href="./pesoEnOtroPlanteta.html">volver a calcular</a>
+    <br>
+    <a href="./index.html">inicio</a>
+
+</body>
+
+</html>
